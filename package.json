@@ -1,0 +1,27 @@
+{
+  "name": "helu",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.1.5",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-orientation": "git+https://github.com/yamill/react-native-orientation.git",
+    "react-native-scrollable-tab-view": "^0.6.7",
+    "react-native-tab-view": "^0.0.66"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "rnpm-plugin-windows": "^0.2.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
